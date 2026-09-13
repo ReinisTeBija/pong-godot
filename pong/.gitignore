@@ -4,3 +4,8 @@
 
 .godot/
 *.tmp
+
+.godot/
+bin/
+obj/
+*.tmp
