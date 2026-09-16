@@ -12,4 +12,14 @@ Dotnet versija: 10.0.401
 ## noņemot ; no rindas 'GD.print...' parādās kļūda Compiler Error CS1002
 
 ## Python - python nosak vērtību automātiski, piemēram counter = 0, bet C# vajag ievadīt int counter = 0;
-## C# - Katras līnijas beigās jābūt ';', C# obligāti jāveic ir 'build', lai notiktu izmaiņas projektā 
+## C# - Katras līnijas beigās jābūt ';', C# obligāti jāveic ir 'build', lai notiktu izmaiņas projektā
+
+
+5.1;
+Nomainot paddle vērtību uz y=0, kvadrāts pārvietojas uz augšu.
+
+
+Papildus uz (1.5) 
+
+1) 1920 / 2 = 960
+2) 1080 / 2 = 540
