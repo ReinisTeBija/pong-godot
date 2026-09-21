@@ -9,8 +9,7 @@ public partial class Paddle : CharacterBody2D
 
     public override void _PhysicsProcess(double delta)
     {
-        Vector2 velocity = Velocity;
-        velocity.Y = 0;
+        Vector2 velocity = Vector2.Zero;
 
         if (Input.IsActionPressed(InputUp))
         {

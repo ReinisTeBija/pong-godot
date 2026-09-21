@@ -21,10 +21,8 @@ public partial class Ball : CharacterBody2D
             velocity = velocity.Bounce(collision.GetNormal());
         }
 
-        // Pārbauda, vai bumba izlidojusi ārpus ekrāna kreisajā vai labajā pusē
         if (Position.X < 0)
         {
-            // Bumba izlidoja pa kreisi -> punktu saņem labais spēlētājs
             if (GameController != null)
             {
                 GameController.OnScore(false);
@@ -36,7 +34,6 @@ public partial class Ball : CharacterBody2D
         }
         else if (Position.X > 1280)
         {
-            // Bumba izlidoja pa labi -> punktu saņem kreisais spēlētājs
             if (GameController != null)
             {
                 GameController.OnScore(true);
